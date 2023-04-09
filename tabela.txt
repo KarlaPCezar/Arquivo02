@@ -1,0 +1,9 @@
+CREATE TABLE "dbteste" (
+	"ID"	integer NOT NULL,
+	"Data"	text NOT NULL,
+	"Centro de Custo"	text NOT NULL,
+	"Conta Contabil"	text NOT NULL,
+	"Valor"	numeric NOT NULL,
+	"NF"	integer NOT NULL,
+	"Histórico"	TEXT,
+	PRIMARY KEY("ID" AUTOINCREMENT)
